@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>pfm_atomic</key>
+    <true/>
+    <key>pfm_description</key>
+    <string>Configuration settings for the Network Printer application.</string>
+    <key>pfm_domain</key>
+    <string>com.networkprinter.preferences</string>
+    <key>pfm_format_version</key>
+    <integer>1</integer>
+    <key>pfm_interaction</key>
+    <string>exclusive</string>
+    <key>pfm_last_modified</key>
+    <date>2025-01-11T12:00:00Z</date>
+    <key>pfm_name</key>
+    <string>Network Printer Preferences</string>
+    <key>pfm_platforms</key>
+    <array>
+        <string>macOS</string>
+    </array>
+    <key>pfm_subkeys</key>
+    <array>
+        <dict>
+            <key>pfm_name</key>
+            <string>DiscoveryMode</string>
+            <key>pfm_title</key>
+            <string>Printer Discovery Mode</string>
+            <key>pfm_description</key>
+            <string>Protocol(s) to use for printer discovery: SMB (SMB/CIFS only), IPP (IPP/IPPS only), or Both (mixed environments).</string>
+            <key>pfm_type</key>
+            <string>string</string>
+            <key>pfm_range_list</key>
+            <array>
+                <string>SMB</string>
+                <string>IPP</string>
+                <string>Both</string>
+            </array>
+            <key>pfm_default</key>
+            <string>Both</string>
+        </dict>
+        <dict>
+            <key>pfm_name</key>
+            <string>PrintServerHost</string>
+            <key>pfm_title</key>
+            <string>SMB Print Server Host</string>
+            <key>pfm_description</key>
+            <string>Hostname or IP address of the SMB/CIFS print server.</string>
+            <key>pfm_type</key>
+            <string>string</string>
+            <key>pfm_default</key>
+            <string>YOUR_PRINTSERVER_HOSTNAME_OR_IP</string>
+        </dict>
+        <dict>
+            <key>pfm_name</key>
+            <string>PrintServerPort</string>
+            <key>pfm_title</key>
+            <string>SMB Print Server Port</string>
+            <key>pfm_description</key>
+            <string>Port number for the SMB print server (typically 445).</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_default</key>
+            <integer>445</integer>
+        </dict>
+        <dict>
+            <key>pfm_name</key>
+            <string>PrintServerDomain</string>
+            <key>pfm_title</key>
+            <string>SMB Print Server Domain</string>
+            <key>pfm_description</key>
+            <string>Windows domain name for the SMB print server (e.g., AD_DOMAIN).</string>
+            <key>pfm_type</key>
+            <string>string</string>
+            <key>pfm_default</key>
+            <string>YOUR_DOMAIN_NAME</string>
+        </dict>
+        <dict>
+            <key>pfm_name</key>
+            <string>IPPServerHost</string>
+            <key>pfm_title</key>
+            <string>IPP Print Server Host</string>
+            <key>pfm_description</key>
+            <string>Hostname or IP address of the IPP/IPPS print server.</string>
+            <key>pfm_type</key>
+            <string>string</string>
+            <key>pfm_default</key>
+            <string>YOUR_IPP_SERVER_HOST</string>
+        </dict>
+        <dict>
+            <key>pfm_name</key>
+            <string>IPPServerPort</string>
+            <key>pfm_title</key>
+            <string>IPP Print Server Port</string>
+            <key>pfm_description</key>
+            <string>Port number for the IPP print server (typically 631).</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_default</key>
+            <integer>631</integer>
+        </dict>
+        <dict>
+            <key>pfm_name</key>
+            <string>IPPUseSSL</string>
+            <key>pfm_title</key>
+            <string>IPP Use SSL/TLS (IPPS)</string>
+            <key>pfm_description</key>
+            <string>Use encrypted IPPS protocol instead of plain IPP.</string>
+            <key>pfm_type</key>
+            <string>boolean</string>
+            <key>pfm_default</key>
+            <false/>
+        </dict>
+        <dict>
+            <key>pfm_name</key>
+            <string>IPPRequireAuthentication</string>
+            <key>pfm_title</key>
+            <string>IPP Require Authentication</string>
+            <key>pfm_description</key>
+            <string>Whether authentication is required for IPP print servers.</string>
+            <key>pfm_type</key>
+            <string>boolean</string>
+            <key>pfm_default</key>
+            <false/>
+        </dict>
+        <dict>
+            <key>pfm_name</key>
+            <string>RequireAuthentication</string>
+            <key>pfm_title</key>
+            <string>SMB Require Authentication</string>
+            <key>pfm_description</key>
+            <string>Whether authentication is required to connect to the SMB print server.</string>
+            <key>pfm_type</key>
+            <string>boolean</string>
+            <key>pfm_default</key>
+            <true/>
+        </dict>
+        <dict>
+            <key>pfm_name</key>
+            <string>DefaultDomain</string>
+            <key>pfm_title</key>
+            <string>Default Authentication Domain</string>
+            <key>pfm_description</key>
+            <string>Default domain to use for SMB authentication (e.g., AD_DOMAIN).</string>
+            <key>pfm_type</key>
+            <string>string</string>
+            <key>pfm_default</key>
+            <string>YOUR_DOMAIN_NAME</string>
+        </dict>
+        <dict>
+            <key>pfm_name</key>
+            <string>AutoInstallPrinters</string>
+            <key>pfm_title</key>
+            <string>Auto-Install All Discoverable Printers</string>
+            <key>pfm_description</key>
+            <string>Automatically install all printers found on the configured servers.</string>
+            <key>pfm_type</key>
+            <string>boolean</string>
+            <key>pfm_default</key>
+            <false/>
+        </dict>
+        <dict>
+            <key>pfm_name</key>
+            <string>AutoInstallDefaultPrinter</string>
+            <key>pfm_title</key>
+            <string>Auto-Install and Set Default Printer</string>
+            <key>pfm_description</key>
+            <string>Specify a printer name (share name) to automatically install and set as default. Leave empty if not used.</string>
+            <key>pfm_type</key>
+            <string>string</string>
+            <key>pfm_default</key>
+            <string></string>
+        </dict>
+        <dict>
+            <key>pfm_name</key>
+            <string>AllowUserServerChange</string>
+            <key>pfm_title</key>
+            <string>Allow User to Change Server Settings</string>
+            <key>pfm_description</key>
+            <string>Permit users to modify print server connection details in the app.</string>
+            <key>pfm_type</key>
+            <string>boolean</string>
+            <key>pfm_default</key>
+            <true/>
+        </dict>
+        <dict>
+            <key>pfm_name</key>
+            <string>AllowUserInstall</string>
+            <key>pfm_title</key>
+            <string>Allow User to Install Printers</string>
+            <key>pfm_description</key>
+            <string>Permit users to manually install printers via the app.</string>
+            <key>pfm_type</key>
+            <string>boolean</string>
+            <key>pfm_default</key>
+            <true/>
+        </dict>
+        <dict>
+            <key>pfm_name</key>
+            <string>AllowUserUninstall</string>
+            <key>pfm_title</key>
+            <string>Allow User to Uninstall Printers</string>
+            <key>pfm_description</key>
+            <string>Permit users to uninstall printers via the app.</string>
+            <key>pfm_type</key>
+            <string>boolean</string>
+            <key>pfm_default</key>
+            <true/>
+        </dict>
+        <dict>
+            <key>pfm_name</key>
+            <string>EnableDetailedLogging</string>
+            <key>pfm_title</key>
+            <string>Enable Detailed Logging</string>
+            <key>pfm_description</key>
+            <string>Enable verbose logging for troubleshooting.</string>
+            <key>pfm_type</key>
+            <string>boolean</string>
+            <key>pfm_default</key>
+            <false/>
+        </dict>
+        <dict>
+            <key>pfm_name</key>
+            <string>AllowFallbackWithGenericSuggestion</string>
+            <key>pfm_title</key>
+            <string>Allow Fallback with Generic Driver Suggestion</string>
+            <key>pfm_description</key>
+            <string>Allow automatic installation with generic driver when no specific driver is found.</string>
+            <key>pfm_type</key>
+            <string>boolean</string>
+            <key>pfm_default</key>
+            <false/>
+        </dict>
+        <dict>
+            <key>pfm_name</key>
+            <string>PrinterDriverMappings</string>
+            <key>pfm_title</key>
+            <string>Printer Driver Mappings</string>
+            <key>pfm_description</key>
+            <string>Dictionary mapping printer share names to their optimal macOS driver PPD file paths.</string>
+            <key>pfm_type</key>
+            <string>dictionary</string>
+            <key>pfm_subkeys</key>
+            <array>
+                <dict>
+                    <key>pfm_name</key>
+                    <string>pfm_key_name</string>
+                    <key>pfm_title</key>
+                    <string>Printer Share Name</string>
+                    <key>pfm_description</key>
+                    <string>The exact name of the printer share as it appears on the print server.</string>
+                    <key>pfm_type</key>
+                    <string>string</string>
+                    <key>pfm_value_placeholder</key>
+                    <string>HP-LaserJet-Pro-4015n</string>
+                </dict>
+                <dict>
+                    <key>pfm_name</key>
+                    <string>pfm_key_value</string>
+                    <key>pfm_title</key>
+                    <string>PPD Driver Path</string>
+                    <key>pfm_description</key>
+                    <string>Full path to the PPD driver file on macOS.</string>
+                    <key>pfm_type</key>
+                    <string>string</string>
+                    <key>pfm_value_placeholder</key>
+                    <string>/Library/Printers/PPDs/Contents/Resources/HP LaserJet Pro 4015n.ppd.gz</string>
+                </dict>
+            </array>
+        </dict>
+        <dict>
+            <key>pfm_name</key>
+            <string>DriverMappingsURL</string>
+            <key>pfm_title</key>
+            <string>Remote Driver Mappings URL</string>
+            <key>pfm_description</key>
+            <string>URL to fetch printer driver mappings from (JSON or CSV format). Leave empty if not used.</string>
+            <key>pfm_type</key>
+            <string>string</string>
+            <key>pfm_default</key>
+            <string></string>
+            <key>pfm_value_placeholder</key>
+            <string>https://your-company.com/printer-drivers.json</string>
+        </dict>
+        <dict>
+            <key>pfm_name</key>
+            <string>GoogleSheetsID</string>
+            <key>pfm_title</key>
+            <string>Google Sheets Spreadsheet ID</string>
+            <key>pfm_description</key>
+            <string>Google Sheets spreadsheet ID containing printer driver mappings. Leave empty if not used.</string>
+            <key>pfm_type</key>
+            <string>string</string>
+            <key>pfm_default</key>
+            <string>1FQiH5-z17LZ32r7DBjdtQK4uxRqjgGvL4KuTlwED3QE</string>
+            <key>pfm_value_placeholder</key>
+            <string>1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms</string>
+        </dict>
+        <dict>
+            <key>pfm_name</key>
+            <string>GoogleSheetsAPIKey</string>
+            <key>pfm_title</key>
+            <string>Google Sheets API Key</string>
+            <key>pfm_description</key>
+            <string>Google Sheets API key for accessing the spreadsheet. Leave empty if not used.</string>
+            <key>pfm_type</key>
+            <string>string</string>
+            <key>pfm_default</key>
+            <string></string>
+            <key>pfm_value_placeholder</key>
+            <string>AIzaSyBkF9JhQvwWZRqUh9qHnyXLZKBXTxYXIhQ</string>
+        </dict>
+        <dict>
+            <key>pfm_name</key>
+            <string>GoogleSheetsRange</string>
+            <key>pfm_title</key>
+            <string>Google Sheets Cell Range</string>
+            <key>pfm_description</key>
+            <string>Cell range in the Google Sheets containing printer mappings (e.g., &apos;printers!A:B&apos;).</string>
+            <key>pfm_type</key>
+            <string>string</string>
+            <key>pfm_default</key>
+            <string>printers!A:B</string>
+            <key>pfm_value_placeholder</key>
+            <string>printers!A:B</string>
+        </dict>
+    </array>
+    <key>pfm_targets</key>
+    <array>
+        <string>user-managed</string>
+        <string>system-managed</string>
+    </array>
+    <key>pfm_unique</key>
+    <false/>
+    <key>pfm_version</key>
+    <integer>1</integer>
+</dict>
+</plist>

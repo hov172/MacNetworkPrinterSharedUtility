@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadDisplayName</key>
+    <string>Network Printer Settings</string>
+    <key>PayloadIdentifier</key>
+    <string>com.example.networkprinter.configuration</string> 
+    <key>PayloadOrganization</key>
+    <string>Your Organization</string> 
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadScope</key>
+    <string>System</string> 
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>GENERATED_PAYLOAD_UUID_TOP_LEVEL</string> 
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadDescription</key>
+            <string>Configures Network Printer application settings</string>
+            <key>PayloadDisplayName</key>
+            <string>Network Printer App Preferences</string>
+            <key>PayloadIdentifier</key>
+            <string>com.networkprinter.preferences</string> 
+            <key>PayloadOrganization</key>
+            <string>Your Organization</string> 
+            <key>PayloadType</key>
+            <string>com.apple.ManagedClient.preferences</string> 
+            <key>PayloadUUID</key>
+            <string>GENERATED_PAYLOAD_UUID_PREFERENCES</string> 
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadEnabled</key>
+            <true/>
+            <key>PayloadContent</key>
+            <dict>
+                <key>com.networkprinter.preferences</key> 
+                <dict>
+                    <key>Forced</key>
+                    <array>
+                        <dict>
+                            <key>mcx_preference_settings</key>
+                            <dict>
+                                <key>DiscoveryMode</key>
+                                <string>Both</string>
+                                <key>PrintServerHost</key>
+                                <string>YOUR_PRINTSERVER_HOSTNAME_OR_IP</string> 
+                                <key>PrintServerPort</key>
+                                <integer>445</integer>
+                                <key>PrintServerDomain</key>
+                                <string>YOUR_DOMAIN_NAME</string> 
+                                <key>IPPServerHost</key>
+                                <string>YOUR_IPP_SERVER_HOST</string>
+                                <key>IPPServerPort</key>
+                                <integer>631</integer>
+                                <key>IPPUseSSL</key>
+                                <false/>
+                                <key>IPPRequireAuthentication</key>
+                                <false/>
+                                <key>RequireAuthentication</key>
+                                <true/>
+                                <key>DefaultDomain</key>
+                                <string>YOUR_DOMAIN_NAME</string> 
+                                <key>AutoInstallPrinters</key>
+                                <false/>
+                                <key>AutoInstallDefaultPrinter</key>
+                                <string></string> 
+                                <key>AllowUserServerChange</key>
+                                <true/>
+                                <key>AllowUserInstall</key>
+                                <true/>
+                                <key>AllowUserUninstall</key>
+                                <true/>
+                                <key>EnableDetailedLogging</key>
+                                <false/>
+                                <key>AllowFallbackWithGenericSuggestion</key>
+                                <false/>
+                                <key>PrinterDriverMappings</key>
+                                <dict>
+                                    <key>CORP-HP-4015-FL1</key>
+                                    <string>/Library/Printers/PPDs/Contents/Resources/HP LaserJet Pro 4015n.ppd.gz</string>
+                                    <key>CORP-CANON-5535-FL2</key>
+                                    <string>/Library/Printers/PPDs/Contents/Resources/Canon iR-ADV C5535i PS.ppd.gz</string>
+                                    <key>CORP-XEROX-7835-FL3</key>
+                                    <string>/Library/Printers/PPDs/Contents/Resources/Xerox WorkCentre 7835.ppd.gz</string>
+                                    <key>CORP-BROTHER-L2350-FL4</key>
+                                    <string>/Library/Printers/PPDs/Contents/Resources/Brother HL-L2350DW.ppd.gz</string>
+                                    <key>IPP-CUPS-COLOR-01</key>
+                                    <string>/Library/Printers/PPDs/Contents/Resources/Generic ColorLaser.ppd</string>
+                                    <key>IPP-CUPS-BW-01</key>
+                                    <string>/Library/Printers/PPDs/Contents/Resources/Generic PostScript Printer.ppd</string>
+                                </dict>
+                                <key>DriverMappingsURL</key>
+                                <string></string> 
+                                <key>GoogleSheetsID</key>
+                                <string>1FQiH5-z17LZ32r7DBjdtQK4uxRqjgGvL4KuTlwED3QE</string>
+                                <key>GoogleSheetsAPIKey</key>
+                                <string>AIzaSyDTATvfLnTUBc6f_KQNzEd5Hrn4l96OvhY</string>
+                                <key>GoogleSheetsRange</key>
+                                <string>printers!A:B</string>
+                            </dict>
+                        </dict>
+                    </array>
+                </dict>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
