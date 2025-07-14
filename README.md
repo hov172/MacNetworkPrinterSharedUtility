@@ -25,6 +25,11 @@ NetworkPrinter is a comprehensive macOS application designed to help users disco
 
 ---
 
+## Driver Selection - Driver path Mapped from Google Sheet
+
+<img width="500" height="1000" alt="DriverSel" src="https://github.com/user-attachments/assets/85ccb340-5721-4b0e-8db3-02f474a184f6" />
+
+---
 ## ✨ Features
 
 * **🎨 Modern SwiftUI Interface**: Clean, intuitive design with smooth animations and responsive layouts
