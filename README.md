@@ -10,9 +10,18 @@
 
 NetworkPrinter is a comprehensive macOS application designed to help users discover and install network printers from both SMB/Windows print servers and IPP (Internet Printing Protocol) servers. The application features a modern SwiftUI interface with comprehensive driver selection capabilities and is built to robustly read and apply settings managed via configuration profiles.
 
-![NetworkPrinter Main UI](./docs/images/main_ui_placeholder.png)
+<img width="400" height="400" alt="login" src="https://github.com/user-attachments/assets/01e886b1-ef80-48d9-8896-77baf45b30ed" />
 
-![NetworkPrinter App Settings UI](./docs/images/app_settings_ui_placeholder.png)
+
+<img width="950" height="700" alt="printerlist" src="https://github.com/user-attachments/assets/fe938f48-5a83-4013-af5c-8864e155e269" />
+
+---
+
+## Settings
+
+<img width="500" height="1000" alt="Setting1" src="https://github.com/user-attachments/assets/75585c16-2ea6-466b-b199-27b1ebe4f5cf" />
+
+<img width="500" height="1000" alt="Settings2" src="https://github.com/user-attachments/assets/18bc18e9-bb33-4d7d-b200-6218510fa368" />
 
 ---
 
