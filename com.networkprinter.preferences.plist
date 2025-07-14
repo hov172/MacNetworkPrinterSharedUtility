@@ -293,9 +293,9 @@
             <key>pfm_type</key>
             <string>string</string>
             <key>pfm_default</key>
-            <string>1FQiH5-z17LZ32r7DBjdtQK4uxRqjgGvL4KuTlwED3QE</string>
+            <string>1FQiH5-z17LZ32r7DBjdtQK4xxxxxxxxxxxxxxxxxxx</string>
             <key>pfm_value_placeholder</key>
-            <string>1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms</string>
+            <string>1BxiMVs0XRA5nFMdKvBdBZjxxxxxxxxxxxxxxxxxxxxx</string>
         </dict>
         <dict>
             <key>pfm_name</key>
@@ -309,7 +309,7 @@
             <key>pfm_default</key>
             <string></string>
             <key>pfm_value_placeholder</key>
-            <string>AIzaSyBkF9JhQvwWZRqUh9qHnyXLZKBXTxYXIhQ</string>
+            <string>AIzaSyBkF9JhQvwWxxxxxxxxxxxxxxxxxxxxxxxxxxxx</string>
         </dict>
         <dict>
             <key>pfm_name</key>
