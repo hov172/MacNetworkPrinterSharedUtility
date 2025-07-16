@@ -1,3 +1,7 @@
+# 👨‍💼 A created a new Beta that supports Airprint 
+
+https://github.com/hov172/MacNetworkPrinterSharedUtility/releases/tag/MacNetPrinterSharedUtilityBeta
+
 # 👨‍💼 Maintain and Build
 
 **Jesus M. Ayala - ITS Help Desk Manager, Sarah Lawrence College**
