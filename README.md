@@ -1,4 +1,4 @@
-# 👨‍💼 A created a new Beta that supports Airprint 
+# 👨‍💼 Created a new Beta that supports Airprint 
 
 https://github.com/hov172/MacNetworkPrinterSharedUtility/releases/tag/MacNetPrinterSharedUtilityBeta
 
